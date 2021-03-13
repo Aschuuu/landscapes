@@ -1,0 +1,77 @@
+h1 {
+  font-family: 'Montserrat';
+  text-align: center;
+  font-size: 5rem;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .s1 .sl1 {
+    background-position-y: 0px !important;
+  }
+  .s1 .sl1 h1 {
+    margin-bottom: 400px;
+  }
+}
+
+.s1 .sl1 {
+  background: url("../img/mountain-1.jpg");
+  background-size: cover;
+  background-position-y: -300px;
+}
+
+.s1 .sl1 h1 {
+  color: #1c1c1c;
+}
+
+.s1 .sl2 {
+  background: url("../img/mountain-2.jpg");
+  background-size: cover;
+}
+
+.s1 .sl3 {
+  background: url("../img/mountain-3.jpg");
+  background-size: cover;
+}
+
+.s2 .sl1 {
+  background: url("../img/aurora-1.jpg");
+  background-size: cover;
+}
+
+.s2 .sl2 {
+  background: url("../img/aurora-2.jpg");
+  background-size: cover;
+}
+
+.s2 .sl3 {
+  background: url("../img/aurora-3.jpg");
+  background-size: cover;
+}
+
+.s3 .sl1 {
+  background: url("../img/waterfall-1.jpg");
+  background-size: cover;
+}
+
+.s3 .sl2 {
+  background: url("../img/waterfall-2.jpg");
+  background-size: cover;
+}
+
+.s3 .sl3 {
+  background: url("../img/waterfall-3.jpg");
+  background-size: cover;
+}
+
+span {
+  background: #fff !important;
+}
+
+#fp-nav ul, .fp-slidesNav ul {
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
